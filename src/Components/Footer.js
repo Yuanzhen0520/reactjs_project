@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const DownPage = () => {
   return (
     <>
@@ -10,20 +11,20 @@ const DownPage = () => {
           <p className="mb-0 text-muted">&copy; 2023-24 Project Blaze</p>
         </div>
         <div className="col-md-4 text-center">
-          <a href="/" className="d-flex align-items-center justify-content-center mb-3 mb-md-0 link-dark text-decoration-none">
+          <Link to="/" className="d-flex align-items-center justify-content-center mb-3 mb-md-0 link-dark text-decoration-none">
             <img src="/images/Brand.png" width="140" alt="Project Blaze Logo"/>
-          </a>
+          </Link>
         </div>
         <div className="col-md-4 text-center text-md-end">
           <ul className="nav justify-content-center justify-content-md-end">
             <li className="nav-item">
-              <a href="/" className="nav-link px-2 text-muted">Disclaimer</a>
+              <Link to="/disclaimer" className="nav-link px-2 text-muted">Disclaimer</Link>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link px-2 text-muted">Terms&amp;Conditions</a>
+              <Link to="/tac" className="nav-link px-2 text-muted">Terms&amp;Conditions</Link>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link px-2 text-muted">Privacy Policy</a>
+              <Link to="/privacypolicy" className="nav-link px-2 text-muted">Privacy Policy</Link>
             </li>
           </ul>
         </div>
