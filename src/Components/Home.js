@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Stylesheet/Home.css";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="master">
-        <Navbar />
+      <Navbar />
       <div className="father d-flex flex-column flex-md-row container justify-content-between align-items-center my-5">
         <div className="child-1 order-2 order-md-1">
           <h2>
@@ -17,7 +17,7 @@ const Home = () => {
           <p>All your needs are satisfied here!</p>
           <Link to="/download" style={{ textDecoration: "none" }}>
             <button type="button" className="downloadBtn">
-              Download Now <img src={"images/arrow.png"} alt="arrow"/>
+              Download Now <img src={"images/arrow.png"} alt="arrow" />
             </button>
           </Link>
         </div>
