@@ -5,6 +5,7 @@
   margin-top: 20px;
   margin-bottom: 25px;
 }
+
 .screenshot{
     min-height: 100vh;
     position: relative;
@@ -144,4 +145,5 @@
   .screenshot .blazeScreenshot {
     font-size: 15px;
   }
+  
 }

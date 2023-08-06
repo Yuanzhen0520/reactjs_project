@@ -11,13 +11,13 @@ const Home = () => {
           <h2>
             Introducing
             <br />
-            Project Blaze
+            Z-Mobile
           </h2>
-          <h3 className="headerh3">An AOSP Based Operating System</h3>
+          <h3 className="headerh3">Embrace a new era of seamless connectivity</h3>
           <p>All your needs are satisfied here!</p>
           <Link to="/download" style={{ textDecoration: "none" }}>
             <button type="button" className="downloadBtn">
-              Download Now <img src={"images/arrow.png"} alt="arrow" />
+              Shop Now <img src={"images/arrow.png"} alt="arrow" />
             </button>
           </Link>
         </div>
