@@ -2,12 +2,19 @@
   min-height: 100vh;
   background: linear-gradient(rgba(130, 212, 233, 0.7), #ffffff);
 }
+.father{
+  position: relative;
+  top: 100px;
+}
 .child-1 {
   flex-basis: 40%;
   position: relative;
   margin-left: 45px;
 }
 .child-1 h2 {
+  font-size: 50px;
+}
+.brand {
   font-size: 50px;
 }
 .child-1 .headerh3 {
@@ -31,25 +38,17 @@
   background: linear-gradient(to right, #2e6ca5, #4034dd);
   border-radius: 6px;
   cursor: pointer;
-  transition: width 0.5s;
-}
-.downloadBtn img {
-  width: 30px;
-  display: none;
-}
-.downloadBtn:hover img {
-  display: block;
+  transition: 0.5s;
+  position: relative;
+  top: 10px;
 }
 .downloadBtn:hover {
-  width: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .child-1::after {
   content: "";
   width: 10px;
-  height: 57%;
+  height: 69%;
   background: linear-gradient(#2e6ca5, #4034dd);
   position: absolute;
   left: -40px;
@@ -57,5 +56,7 @@
 }
 
 .child-2 .controller {
-  width: 60%;
+  width: 200px;
+  height: 200px;
+  margin: 4px;
 }
