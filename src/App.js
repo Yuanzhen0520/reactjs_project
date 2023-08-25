@@ -20,7 +20,6 @@ function App() {
             <Home key="home" />,
             <WhyBlaze key="whyblaze" />,
             <BlazeScreenshot key="blazescreenshot" />,
-            <Doubts key="doubts" />,
             <Footer key="footer" />,
           ]}
         />
@@ -69,7 +68,6 @@ function App() {
             <Footer key="footer" />,
           ]}
         />
-        
       </Routes>
     </>
   );
